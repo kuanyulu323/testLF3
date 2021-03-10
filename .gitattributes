@@ -1,0 +1,5 @@
+# below two type of files will be copied to docker linux container, should not change to crlf EOL
+# https://stackoverflow.com/questions/10418975/how-to-change-line-ending-settings
+# https://help.github.com/articles/dealing-with-line-endings/
+*.sh text eol=lf
+*.conf eol=lf
